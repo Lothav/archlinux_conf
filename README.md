@@ -1,6 +1,6 @@
 # Guide through minimal archlinux installation
 
-## Throbleshooting
+## Troubleshooting
 
 ### Font terminal overlaping
 $ mkdir ~/.config/fontconfig
