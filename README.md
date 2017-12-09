@@ -1,5 +1,6 @@
 # Guide through minimal archlinux installation
 
+
 ## Troubleshooting
 
 ### Font terminal overlaping
@@ -13,3 +14,6 @@ install fucking microsoft font:
 
 https://aur.archlinux.org/packages/ttf-ms-fonts/
 
+### Timezone correct. Date still wrong
+
+$ sudo ntpd -qg
