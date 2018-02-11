@@ -17,4 +17,5 @@ https://aur.archlinux.org/packages/ttf-ms-fonts/
 ### Timezone correct. Date still wrong
 
 \# timedatectl set-timezone America/Sao_Paulo
+
 \#  ntpd -qg
