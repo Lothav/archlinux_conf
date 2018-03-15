@@ -1,0 +1,24 @@
+# /etc/netctl/wlp3s0-dcc
+ap_scan=1
+network={
+	ssid="DCC-usuarios"
+	proto=RSN
+	pairwise=CCMP
+	eap=PEAP
+	identity="luizorv"
+	password="z****c"
+	key_mgmt=WPA-EAP
+}
+
+# /etc/netctl/wlp3s0-ufmg
+ctrl_interface=/var/run/wpa_supplicant
+ap_scan=1
+network={
+	ssid="UFMG"
+	proto=RSN
+	pairwise=CCMP
+	eap=PEAP
+	identity="luizorv"
+	password="a*****$"
+	key_mgmt=WPA-EAP
+}
