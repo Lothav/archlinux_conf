@@ -1,0 +1,4 @@
+# thinkpad
+terminator & 
+setxkbmap -model thinkpad60 -layout br &
+python /opt/pygrid/pygrid.py
