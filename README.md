@@ -1,4 +1,4 @@
-# Guide through minimal archlinux installation
+# Tips conf Archlinux installation
 
 
 ## Troubleshooting
