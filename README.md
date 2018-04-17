@@ -35,6 +35,6 @@ Make sure create Xorg.conf with same card Indetify
 Wifi connected (netctl running) but no browser internet.
 
 - If pacman -Syu works, check /etc/resolv.conf permission (set to 644)
-set Google nameservers in /etc/resolv.conf may be useful
-nameserver 8.8.8.8
-nameserver 8.8.4.4
+- set Google nameservers in /etc/resolv.conf may be useful
+- nameserver 8.8.8.8
+- nameserver 8.8.4.4
