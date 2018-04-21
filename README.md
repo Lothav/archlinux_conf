@@ -32,6 +32,8 @@ Make sure create Xorg.conf with same card Indetify
 
 ## Wifi no internet
 
+\# ip link set wlp3s0 down
+
 Wifi connected (netctl running) but no browser internet.
 
 - If pacman -Syu works, check /etc/resolv.conf permission (set to 644)
