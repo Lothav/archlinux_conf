@@ -1,4 +1,4 @@
-# Archlinux Conf
+# Personal Archlinux Conf and Dot Files
 
 
 ## Troubleshooting
