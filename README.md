@@ -30,7 +30,7 @@ Put nouveau on Blacklist (/etc/modprob.d/blacklist.conf)
 Find default Xorg.conf file, usually /root/xorg.conf, and check the Identify card name.
 Make sure create Xorg.conf with same card Indetify
 
-## Wifi doesn't connect
+### Wifi doesn't connect
 
 Set wifi interface down:
 \# ip link set <interface> down
@@ -42,12 +42,12 @@ Check if there's other active connections:
 Connections labels:
 $ ls /etc/netctl
 
-## Wifi no internet
+### Wifi no internet
 
 Wifi connected (netctl running) but no browser internet.
 
-Check DNS:
-- If ping 1.1.1.1 or pacman -Syu works, check /etc/resolv.conf permission (set to 644)
+DNS:
+- Check if `$ ping 1.1.1.1` or `$ pacman -Syu` works. If so, check /etc/resolv.conf permission (set to 644).
 - set Google nameservers in /etc/resolv.conf may be useful
 - nameserver 8.8.8.8
 - nameserver 8.8.4.4
