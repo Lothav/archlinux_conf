@@ -1,4 +1,4 @@
-# Tips conf Archlinux installation
+# Archlinux
 
 
 ## Troubleshooting
