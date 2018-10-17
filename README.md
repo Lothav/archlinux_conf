@@ -1,4 +1,4 @@
-# Archlinux
+# Archlinux Conf
 
 
 ## Troubleshooting
@@ -14,12 +14,11 @@ install fucking microsoft font:
 
 https://aur.archlinux.org/packages/ttf-ms-fonts/
 
-### Timezone correct. Date still wrong
+### Timezone correct but date still wrong
 
-`\# timedatectl set-timezone America/Sao_Paulo`
+`# timedatectl set-timezone America/Sao_Paulo`
 
-`\#  ntpd -qg`
-
+`# ntpd -qg`
 
 ### Can't switch Intel Graphics to Nvidia
 
@@ -33,12 +32,12 @@ Make sure create Xorg.conf with same card Indetify
 ### Wifi doesn't connect
 
 Set wifi interface down:
-`\# ip link set \<interface\> down`
+`# ip link set <interface> down`
 Interface name:
 `$ ip link`
 
 Check if there's other active connections: 
-`\# netctl status \<connection\>`
+`# netctl status <connection>`
 Connections labels:
 `$ ls /etc/netctl`
 
@@ -47,7 +46,7 @@ Connections labels:
 Wifi connected (netctl running) but no browser internet.
 
 DNS:
-- Check if `$ ping 1.1.1.1` or `$ pacman -Syu` works. If so, check /etc/resolv.conf permission (set to 644).
+- Check if `$ ping 1.1.1.1` or `$ pacman -Syu` works. If so, check `/etc/resolv.conf` permission (set to 644).
 - set Google nameservers in `/etc/resolv.conf` may be useful
 - nameserver 8.8.8.8
 - nameserver 8.8.4.4
