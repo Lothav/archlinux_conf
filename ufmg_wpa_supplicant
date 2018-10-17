@@ -5,8 +5,8 @@ network={
 	proto=RSN
 	pairwise=CCMP
 	eap=PEAP
-	identity="luizorv"
-	password="z****c"
+	identity="<YOUR-USERNAME>"
+	password="<YOUR-PASSWORD>"
 	key_mgmt=WPA-EAP
 }
 
@@ -18,7 +18,7 @@ network={
 	proto=RSN
 	pairwise=CCMP
 	eap=PEAP
-	identity="luizorv"
-	password="a*****$"
+	identity="<YOUR-USERNAME>"
+	password="<YOUR-PASSWORD>"
 	key_mgmt=WPA-EAP
 }
