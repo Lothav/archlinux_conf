@@ -21,6 +21,7 @@ alias tiled="/opt/tiled/Tiled-1.1.6-x86_64.AppImage"
 alias rider="/opt/rider-2018.2.3/bin/rider.sh"
 alias intellij="/opt/idea-IU-182.4505.22/bin/idea.sh"
 alias net-detail="watch -n1 iwconfig"
+alias dud="sudo du -sch .[!.]* * |sort -h"
 
 export VULKAN_SDK=~/vulkan/1.1.82.1/x86_64
 export LD_LIBRARY_PATH=~/vulkan/1.1.82.1/x86_64/lib
