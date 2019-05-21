@@ -47,6 +47,9 @@ Wifi connected (netctl running) but no browser internet.
 
 DNS:
 - Check if `$ ping 1.1.1.1` or `$ pacman -Syu` works. If so, check `/etc/resolv.conf` permission (set to 644).
-- set Google nameservers in `/etc/resolv.conf` may be useful
-- nameserver 8.8.8.8
-- nameserver 8.8.4.4
+- set nameservers in `/etc/resolv.conf`:
+- nameserver 1.1.1.1 # cloudflare DNS
+- nameserver 8.8.8.8 # google DNS
+- nameserver 8.8.4.4 # google DNS
+
+`# chattr -i /etc/resolv.conf` to prevent connections from modifying it
