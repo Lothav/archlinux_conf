@@ -8,6 +8,7 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+alias pavos="echo Pavos Cabuloso!"
 alias clion="/opt/clion-2018.1.2/bin/clion.sh"
 alias goland="/opt/GoLand-2018.1.1/bin/goland.sh"
 alias webstorm="/opt/WebStorm-181.4892.44/bin/webstorm.sh"
